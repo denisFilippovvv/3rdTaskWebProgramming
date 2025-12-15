@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f5f5f5;
+}
+
+#colorText {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    min-width: 300px;
+    border: 1px solid #ddd;
+    transition: color 0.3s ease;
+}
+
+#colorSelect {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    min-width: 200px;
+}
+
+#colorSelect:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+
+option {
+    padding: 5px;
+}
